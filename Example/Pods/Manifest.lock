@@ -1,16 +1,39 @@
 PODS:
-  - WidgetTimeline (0.1.0)
+  - EngagementSDK (2.18):
+    - lottie-ios (~> 3.0)
+    - Mixpanel-swift (~> 2.7)
+    - PubNub (~> 4.12.0)
+  - lottie-ios (3.2.1)
+  - Mixpanel-swift (2.8.3):
+    - Mixpanel-swift/Complete (= 2.8.3)
+  - Mixpanel-swift/Complete (2.8.3)
+  - PubNub (4.12.0):
+    - PubNub/Core (= 4.12.0)
+  - PubNub/Core (4.12.0)
+  - WidgetTimeline (0.1.0):
+    - EngagementSDK
 
 DEPENDENCIES:
   - WidgetTimeline (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - EngagementSDK
+    - lottie-ios
+    - Mixpanel-swift
+    - PubNub
 
 EXTERNAL SOURCES:
   WidgetTimeline:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WidgetTimeline: a1ce4d1ef9a95ad20cd24d79342641580f1b1d85
+  EngagementSDK: cabcd906b5af45cebaeb33795def27856ca2979e
+  lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
+  Mixpanel-swift: 947354668bf7dcaff5aaf9c64232fb5bea6ff0c7
+  PubNub: 44e2eb39746e7231b98b978a8e3b9726b11dca9c
+  WidgetTimeline: 29c89554379cf20eb380f51e9ef72111caeed4ac
 
-PODFILE CHECKSUM: b7683874dc8d6934ee083c632b6c85880aee06e1
+PODFILE CHECKSUM: df10a1e3f2eb0674f41714398553e600237150ba
 
 COCOAPODS: 1.10.1
