@@ -1,0 +1,6 @@
+framework module Pods_WidgetTimeline_Tests {
+  umbrella header "Pods-WidgetTimeline_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

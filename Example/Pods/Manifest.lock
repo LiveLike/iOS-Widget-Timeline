@@ -1,0 +1,16 @@
+PODS:
+  - WidgetTimeline (0.1.0)
+
+DEPENDENCIES:
+  - WidgetTimeline (from `../`)
+
+EXTERNAL SOURCES:
+  WidgetTimeline:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WidgetTimeline: a1ce4d1ef9a95ad20cd24d79342641580f1b1d85
+
+PODFILE CHECKSUM: b7683874dc8d6934ee083c632b6c85880aee06e1
+
+COCOAPODS: 1.10.1

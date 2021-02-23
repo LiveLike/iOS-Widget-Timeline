@@ -1,0 +1,6 @@
+framework module Pods_WidgetTimeline_Example {
+  umbrella header "Pods-WidgetTimeline_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

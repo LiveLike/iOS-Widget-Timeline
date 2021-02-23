@@ -1,0 +1,6 @@
+framework module WidgetTimeline {
+  umbrella header "WidgetTimeline-umbrella.h"
+
+  export *
+  module * { export * }
+}

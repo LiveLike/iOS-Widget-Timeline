@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WidgetTimeline_Example' do
+  pod 'WidgetTimeline', :path => '../'
+
+  target 'WidgetTimeline_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
