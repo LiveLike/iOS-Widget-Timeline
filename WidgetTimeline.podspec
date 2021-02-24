@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/mjelzon/WidgetTimeline'
+  s.homepage         = 'https://github.com/LiveLike/iOS-Widget-Timeline'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mjelzon' => 'jelzon@livelike.com' }
-  s.source           = { :git => 'https://github.com/mjelzon/WidgetTimeline.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LiveLike/iOS-Widget-Timeline.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
